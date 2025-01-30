@@ -1,17 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
 import "./App.css";
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 import Homepage from "./pages/Homepage";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
       <div className="">
         <Homepage />
-        {/* <Analytics /> */}
+        <Analytics />
       </div>
     </>
   );

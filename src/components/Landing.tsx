@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 import "../App.css";
 import introImg from "../assets/images/Intro.png";
 import curve from "../assets/icons/curve.svg";
@@ -7,21 +7,21 @@ import avatars from "../assets/icons/avatars.svg";
 import pent from "../assets/images/pent.png";
 import customer1 from "../assets/images/customer1.png";
 import tick from "../assets/icons/tick.svg";
-import NavigationBar from "./NavigationBar";
+// import NavigationBar from "./NavigationBar";
 
 const Landing = () => {
   // Create refs for each section
-  const introRef = useRef<HTMLDivElement>(null);
-  const productRef = useRef<HTMLDivElement>(null);
-  const servicesRef = useRef<HTMLDivElement>(null);
-  const aboutRef = useRef<HTMLDivElement>(null);
-  const reviewRef = useRef<HTMLDivElement>(null);
+  // const introRef = useRef<HTMLDivElement>(null);
+  // const productRef = useRef<HTMLDivElement>(null);
+  // const servicesRef = useRef<HTMLDivElement>(null);
+  // const aboutRef = useRef<HTMLDivElement>(null);
+  // const reviewRef = useRef<HTMLDivElement>(null);
   // Function to scroll to a section
-  const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
+  //   if (ref.current) {
+  //     ref.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
   return (
     <>
       <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none w-auto">
